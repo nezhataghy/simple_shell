@@ -4,6 +4,7 @@
  * execute - runs the command in a child process
  * @argv: command line
  * @arg: command
+ * Return: 0 on success, 127 in case of failure
  */
 
 int execute(char **argv, char *arg)
