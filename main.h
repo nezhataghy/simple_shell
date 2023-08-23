@@ -43,6 +43,4 @@ void free_grid(char **argv);
 
 void print_env(void);
 void b_in_exit(char **argv);
-
 #endif
-
