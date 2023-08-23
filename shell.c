@@ -4,6 +4,8 @@ int main(int argc, char **argv);
 
 /**
  * main - Entry point
+ * @argc: arg count
+ * @argv: array of args
  * Return: 0 on success
  */
 

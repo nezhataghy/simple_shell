@@ -25,6 +25,6 @@ int execute(char **argv, char *arg)
 	else
 	{
 		wait(NULL);
-		return (0);
 	}
+	return (0);
 }
