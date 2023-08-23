@@ -5,7 +5,7 @@ int main(int argc, char **argv);
 /**
  * main - Entry point
  * @argc: arg count
- * @argv: array of args
+ * @argv: array of arg
  * Return: 0 on success
  */
 
@@ -25,7 +25,6 @@ int main(int argc, char **argv)
 		{
 			write(1, "#cisfun$ ", 10);
 			num_read = getline(&buffer, &n, stdin);
-
 			if (num_read == -1)
 			{
 				free(buffer);
@@ -82,7 +81,6 @@ int main(int argc, char **argv)
 	}
 	else
 	{
-		printf("please kefaya\n");
 		while ((num_read = getline(&buffer, &n, stdin)) != -1)
 		{
 			counter++;
