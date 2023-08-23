@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 	size_t n = 1024;
 	ssize_t num_read = 0;
 	const char *separator = " \n\t\r";
-	int res = 0, counter;
+	int res = 0, counter = 0;
 	(void)argc;
 
 	if (isatty(STDIN_FILENO))
@@ -25,6 +25,7 @@ int main(int argc, char **argv)
 		{
 			write(1, "#cisfun$ ", 10);
 			num_read = getline(&buffer, &n, stdin);
+
 			if (num_read == -1)
 			{
 				free(buffer);
@@ -81,6 +82,7 @@ int main(int argc, char **argv)
 	}
 	else
 	{
+		printf("please kefaya\n");
 		while ((num_read = getline(&buffer, &n, stdin)) != -1)
 		{
 			counter++;

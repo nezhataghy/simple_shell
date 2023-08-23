@@ -23,8 +23,6 @@ typedef struct node
 	struct node *next;
 } noeud;
 
-int interactive(void);
-
 int _atoi(char *s);
 int _strcmp(char *s1, char *s2);
 char *_strcpy(char *dest, char *src);
