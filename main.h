@@ -44,5 +44,9 @@ void free_grid(char **argv);
 void print_env(void);
 void b_in_exit(char **argv);
 
+void clear_info(info_t *);
+void set_info(info_t *, char **);
+void free_info(info_t *, int);
+
 #endif
 
